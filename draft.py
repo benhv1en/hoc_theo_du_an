@@ -31,3 +31,23 @@ class Solution:
         for operation in operations:
             value = (value + 1) if ("+" == operation[1]) else (value - 1)
         return value
+
+    def getConcatenation(self, nums):
+        answer = nums.copy()
+        for num in nums:
+            answer.append(num)
+        return answer
+
+    def findWordsContaining(self, words, x):
+        answer = []
+        for i in range(0, len(words)):
+            for character in words[i]:
+                if x == character:
+                    answer.append[i]
+        return answer
+
+
+if "main" == __name__:
+    words = ["leet", "code"]
+    s = Solution()
+    print(s.findWordsContaining(words, "e"))

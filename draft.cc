@@ -31,4 +31,19 @@ int finalValueAfterOperations(vector<string>& operations) {
     value = (operation[1] == '+') ? value + 1 : value - 1;
   return value;
 }
+vector<int> getConcatenation(vector<int>& nums) {
+  vector<int> answer(nums);
+  for (const int& num : nums) answer.push_back(num);
+  return answer;
+}
+vector<int> findWordsContaining(vector<string>& words, char x) {
+  vector<int> answer;
+  for (int i = 0; i < words.size; ++i)
+    for (const char& character : words[i])
+      if (character == x) {
+        answer.push_back(i);
+        break;
+      }
+  return answer;
+}
 int main() {}

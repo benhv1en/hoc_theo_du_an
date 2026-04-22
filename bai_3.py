@@ -12,9 +12,11 @@ def CalculateVND(no_kwh: int) -> int:
 
 
 if "__main__" == __name__:
-    try:
-        nokwh = int(input("Nhap so kwh: "))
-    except TypeError:
-        print("Sai kieu du lieu")
-
-    totalmoney = CalculateVND(nokwh)
+    while True:
+        try:
+            nokwh = int(input("Nhap so kwh: "))
+            totalmoney = CalculateVND(nokwh)
+            print("Tong tien dien la: ", totalmoney, "VND")
+            break
+        except ValueError:
+            print("Sai kieu du lieu, nhap lai\n")

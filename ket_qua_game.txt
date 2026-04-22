@@ -1,0 +1,2 @@
+Ti so tran dau: 	You: 1.5
+	Computer: 1.5

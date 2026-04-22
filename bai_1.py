@@ -25,7 +25,7 @@ if "__main__" == __name__:
     print("Diem trung binh la: ", average)
     print("Diem max la: ", max_score)
 
-    f = open("students.txt", "w")
+    f = open("diem_thi.txt", "w")
     f.write("Class List:\n")
     for student in class_list:
         f.write("%s\t%.2f\n" % (student.name, student.score))

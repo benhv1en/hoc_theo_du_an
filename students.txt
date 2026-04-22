@@ -1,6 +1,0 @@
-Class List:
-linh	9.00
-nhi	8.00
-duc	7.00
-duc	7.00
-Avr: 7.75Max: 9.00

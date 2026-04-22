@@ -1,0 +1,6 @@
+Class List:
+duc	7.00
+duc	8.00
+duc	9.00
+Avr: 8.00
+Max: 9.00

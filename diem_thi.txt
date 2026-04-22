@@ -1,6 +1,6 @@
 Class List:
-duc	7.00
-duc	8.00
-duc	9.00
-Avr: 8.00
-Max: 9.00
+duc	4.00
+linh	10.00
+duc	3.00
+Avr: 5.67
+Max: 10.00

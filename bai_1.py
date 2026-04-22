@@ -23,12 +23,13 @@ if "__main__" == __name__:
             max_score = student.score
     average = sum / no
     print("Diem trung binh la: ", average)
-    print("Diem max la: ", max_score)
+    for student in class_list:
+        if student.score == max_score:
+            print("Sinh vien %s co diem cao nhat" % student.name)
+            break
 
     f = open("diem_thi.txt", "w")
     f.write("Class List:\n")
     for student in class_list:
         f.write("%s\t%.2f\n" % (student.name, student.score))
-    f.write("Avr: %.2f\n" % average)
-    f.write("Max: %.2f\n" % max_score)
     f.close()

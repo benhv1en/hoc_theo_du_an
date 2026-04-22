@@ -38,7 +38,7 @@ vector<int> getConcatenation(vector<int>& nums) {
 }
 vector<int> findWordsContaining(vector<string>& words, char x) {
   vector<int> answer;
-  for (int i = 0; i < words.size; ++i)
+  for (int i = 0; i < words.size(); ++i)
     for (const char& character : words[i])
       if (character == x) {
         answer.push_back(i);
@@ -46,4 +46,5 @@ vector<int> findWordsContaining(vector<string>& words, char x) {
       }
   return answer;
 }
+
 int main() {}

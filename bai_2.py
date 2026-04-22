@@ -3,7 +3,7 @@ def Standardise(list_item: list[str]) -> list[str]:
         while " " in list_item[i]:
             list_item[i] = list_item[i].replace(" ", "")
         list_item[i] = list_item[i].upper()
-    list_item.sort()
+    list_item.sort(reverse=True)
     return list_item
 
 
